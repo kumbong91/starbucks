@@ -1,0 +1,151 @@
+@charset "utf-8";
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #eee;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    color: inherit;
+    text-decoration: none;
+}
+
+
+.wrap{
+    min-width: 320px;
+}
+
+header{
+    height: 50px; width: 100%;
+    position: relative;
+    background-color: #fff;
+}
+
+h1{
+    position: absolute; top: 5px; left: 10px;
+}
+h1 a{
+    display: block;
+    width: 40px;
+    height: auto;
+    text-indent:-9999px;
+    background-image: url(../img/logo.gif);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% auto;
+}
+
+.openMenu{
+    position: absolute; top: 0; right: 8px;
+}
+
+.openMenu a{
+    display: block;
+    width: 36px; height: 50px;
+    text-indent: -9999px;
+    background-image: url(../img/icon_menu.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 38px;
+}
+
+.openSearch{
+    position: absolute; top: 0; right: 50px;
+}
+
+.openSearch a{
+    display: block;
+    width: 36px; height: 50px;
+    text-indent: -9999px;
+    background-image: url(../img/icon_sc.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 36px;
+}
+
+.mainvisual img{
+    width: 100%; height: auto;
+}
+ 
+.mainbox{
+    margin-top: 10px; padding-top: 20px; padding-bottom: 20px;
+    background-color: #fff;
+}
+
+.mainbox h3{
+    margin-bottom: 12px; 
+    font-size: 18px; color: #56453b;
+}
+
+.box img{
+    width: 100%; height: auto;
+}
+
+.mainbox .box{
+    float: left; width: 50%;
+    padding-left: 6px; padding-right: 6px;
+    box-sizing: border-box;
+    margin-bottom: 12px;
+}
+
+.mainbox ul:after{
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.nameK, .nameE{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.notice li{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.more a{
+    display: block;
+    background-image: url(../img/more.png);
+    width: 20px; height: 20px;
+    background-size: 100% auto;
+    background-position: center;
+}
+
+.notice{
+    position: relative;
+    background-color: #fff;
+}
+
+.more{
+    position: absolute; top: 10px; right: 20px;
+}
+
+.notice li{
+    height: 30px;
+    line-height: 30px;
+}
+
+
+.notice h3{
+
+}
+.notice li{
+    border-bottom: 1px dotted #333;
+    font-size: 12px;
+}
+
+.notice li:first-child{
+    border-top: 1px dotted #333;
+}
+
